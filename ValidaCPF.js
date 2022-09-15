@@ -37,6 +37,6 @@ ValidaCPF.prototype.isSequencia = function() {
     return sequencia === this.cpfLimpo
 }
 
-//Colocar aqui o CPF para ser analisado e descobrir se é valido ou não
+//Colocar aqui o CPF para ser analisado e descobrir se é valido
 const cpf = new ValidaCPF('409.852.863-98')
 console.log(cpf.valida())
